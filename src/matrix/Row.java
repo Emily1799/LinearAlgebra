@@ -6,12 +6,10 @@ public class Row {
 	public Row(double[] row) {
 		this.row = row;
 	}
-	public RowmulRowMutate(double mulBy) {
-	
+	public void mulRowMutate(double mulBy) {
 		for(int i = 0; i < row.length; i++) {
 			row[i]*= mulBy;
 		}
-		return this;
 	}
 	
 	public Row mulRowNoMutate(double mulBy) {

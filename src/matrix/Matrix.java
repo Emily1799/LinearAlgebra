@@ -29,7 +29,8 @@ public class Matrix {
 	public Matrix mulRowAddToAnother(Row rowToChange, Row rowToMul, double mulBy) {
 		Matrix m = new Matrix(this.numColumns, this.numRows, this.matrix);
 		Row temp = rowToMul.mulRowNoMutate(mulBy);
-		
+		//TODO: finish this
+		return null;
 	}
 
 	public int getNumColumns() {
