@@ -11,7 +11,7 @@ public class Row {
 	public Row addRows(Row row1, Row row2) {
 		Row ret;
 		if((row1 == null) || (row2 == null)|| (row1.rowvals.length != row2.rowvals.length)) {
-			throw new IllegalArgumentException("Rows must be the same lenth to be added");
+			throw new IllegalArgumentException("Rows must be the same length to be added");
 		}
 		else {
 			//make return array from row1's values (copied, to prevent unintentional damage)
